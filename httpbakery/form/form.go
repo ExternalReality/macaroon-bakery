@@ -4,10 +4,10 @@ package form
 import (
 	"net/url"
 
+	"github.com/juju/httprequest"
 	"golang.org/x/net/context"
 	"golang.org/x/net/publicsuffix"
 	"gopkg.in/errgo.v1"
-	"gopkg.in/httprequest.v1"
 	"gopkg.in/juju/environschema.v1"
 	"gopkg.in/juju/environschema.v1/form"
 
